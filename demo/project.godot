@@ -1,0 +1,6 @@
+config_version=5
+
+[application]
+
+config/name="polygon2 demo"
+config/features=PackedStringArray("4.8", "GL Compatibility")

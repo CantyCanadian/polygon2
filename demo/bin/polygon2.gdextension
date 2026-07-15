@@ -1,0 +1,12 @@
+[configuration]
+entry_symbol = "polygon2_library_init"
+compatibility_minimum = "4.8"
+reloadable = true
+
+[libraries]
+windows.debug.x86_64 = "res://bin/libpolygon2.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "res://bin/libpolygon2.windows.template_release.x86_64.dll"
+linux.debug.x86_64 = "res://bin/libpolygon2.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://bin/libpolygon2.linux.template_release.x86_64.so"
+macos.debug = "res://bin/libpolygon2.macos.template_debug.framework"
+macos.release = "res://bin/libpolygon2.macos.template_release.framework"
